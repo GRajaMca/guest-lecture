@@ -1,0 +1,14 @@
+server:
+  port: 7777
+spring:
+  application:
+    name: product-catalog
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+  datasource:
+    username: root
+    password: root
+    url: jdbc:mariadb://localhost:3306/sona_mca?createDatabaseIfNotExist=true
+    driver-class-name: org.mariadb.jdbc.Driver
